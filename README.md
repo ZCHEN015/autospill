@@ -10,6 +10,9 @@ compensate or unmix high-parameter flow cytometry data.
 [doi:10.1101/2020.06.29.177196](https://doi.org/10.1101/2020.06.29.177196) 
 \(2020\). 
 
+## About This Fork 
+
+Original codes cannot run correctly in Windows platform, we did some tiny code changes to fix this.
 
 ## Installation
 
@@ -20,7 +23,7 @@ use the function `install_github` in the
 ```R
 library( devtools )
 
-install_github( "carlosproca/autospill" )
+install_github( "ZCHEN015/autospill" )
 ```
 
 
